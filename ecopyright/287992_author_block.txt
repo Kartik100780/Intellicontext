@@ -1,0 +1,23 @@
+IEEE eCopyright - author block for RICE 2026 Paper #287992  (D5)
+=================================================================
+WARNING: enter these values EXACTLY as they appear in the final PDF (title page).
+A mismatch stalls processing and IEEE does not allow the form to be changed after it is submitted.
+Source of these values: intake block B02/B03 + the title page of the docx source (paper.docx).
+Author confirmation still required: see COMPLIANCE_REPORT.md section 6.
+
+Title (verbatim, exact capitalisation):
+IntelliLog: A Multi-Stage Log Reduction Pipeline for Cost-Optimised Splunk Ingestion
+
+Authors, in order (1 author):
+1. Kartik Mehta
+   Affiliation: HSBC Software (I) PVT LTD, Pune, India
+   Email: kartik.mehta@hsbc.co.in
+   IEEE member grade: NOT PROVIDED in intake (B03 blank) -> enter as the author confirms (email says "NA" if not an IEEE member, for KonfHub only)
+   ORCID: NOT PROVIDED
+
+Corresponding author: Kartik Mehta (kartik.mehta@hsbc.co.in)  [author to confirm]
+
+Before signing, the author must confirm:
+- the title and the author name are typed exactly as the PDF shows them (including "Cost-Optimised" and "HSBC Software (I) PVT LTD")
+- the paper has no other authors (the .docx core metadata shows no second author; an earlier IntelliContext docx lists "Harshit Mehta" - that is a different paper, #476130, and must NOT be copied here)
+- the signature is done by the author personally, not by anyone else
