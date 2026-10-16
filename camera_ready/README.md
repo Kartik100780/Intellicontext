@@ -1,12 +1,6 @@
-# camera_ready/ - D1 status
+# camera_ready/
 
-**D1 has NOT been produced.** Reason (measured in this sandbox): there is no Word, LibreOffice, pandoc or TeX installed, apt is not available, and the sandbox cannot reach Microsoft or CTAN. A PDF made by a different engine would not match the IEEE Word layout, so it would not be a faithful camera-ready.
+- `287992_IntelliLog_camera_ready_candidate.pdf` – attached PDF with the visible "PUBLIC" footer removed on all 7 pages. **Candidate only.** Not camera-ready and not PDF eXpress-validated. Still contains the approved reference fixes NOT yet applied (E3–E7), the placeholder copyright line, and the inherited "Certified by IEEE PDFExpress" metadata string.
+- `CHANGES_PDF.md` – exact PDF-level changes and what was not changed.
 
-Next step (author, on a Windows/Mac machine with Word):
-1. Open `source/IntelliLog_287992_source.zip` -> `paper.docx` in Microsoft Word.
-2. Check page size = US Letter, and the page count (the attached PDF has 7 pages; one extra page = INR 1,000).
-3. File > Save As > PDF (Standard / "Best for electronic distribution").
-4. Put the exported PDF in this folder as `camera_ready/287992_camera_ready_pre-validation.pdf` and tell me. I will run the pre-flight suite on it.
-5. Upload that PDF to IEEE PDF eXpress with Conference ID 71332X (ID still "to confirm" per the organiser email). Only the PDF returned as validated may go to ConfConnects.
-
-The PDF is **not** PDF eXpress-validated until IEEE PDF eXpress says so.
+Final camera-ready route: apply E3–E7 in `source/paper.docx` (Word), export PDF from Word, run IEEE PDF eXpress with Conference ID 71332X, and upload only the validated PDF.
