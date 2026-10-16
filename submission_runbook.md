@@ -8,8 +8,8 @@ Current time at writing: ~21:20 IST (sandbox clock 15:50 UTC). Times below are t
 |---|---|---|---|
 | 21:25 | Confirm the #287992 acceptance email exists (the only one in the workspace is #476130). Confirm sole author. | Kartik Mehta | You tell me in the chat |
 | 21:30 | Review `source/CHANGES.md` (E1 PUBLIC footer removed; E2 Table II cross-reference removed) | Kartik Mehta | Approved |
-| 21:35 | Decide on references [6], [8], [21], [20] (see COMPLIANCE_REPORT.md §6, items 3) | Kartik Mehta | Decision noted |
-| 21:40 | Decide AI disclosure (tool name needed if yes) and footer copyright line (ask riceconvenor@gmail.com with Paper ID if unknown) | Kartik Mehta | Decision noted |
+| 21:35 | References: [6], [8] corrected; [20], [21] removed (v2, see CHANGES.md). Still verify [1]-[5], [7], [9]-[19] by reading | Kartik Mehta | Verified |
+| 21:40 | Resolve the AI conflict (intake: used for grammar; chat: no AI) before signing declaration item 6. Footer copyright line: ask riceconvenor@gmail.com with Paper ID if unknown | Kartik Mehta | Decision noted |
 | 21:45 | Open `source/IntelliLog_287992_source.zip` → `paper.docx` in Word. Check: US Letter; page count (6 or 7); Fig. 2 visible; no "PUBLIC" visible in footers (note: the sensitivity label may re-add it, §F1) | Kartik Mehta | Word file checked |
 | 22:00 | Save as PDF (Word: File → Save As → PDF, "Standard"). Save as `camera_ready/287992_camera_ready_pre-validation.pdf`. Send it to me for pre-flight | Kartik Mehta | PDF in camera_ready/ |
 | 22:10 | I run pre-flight (fonts embedded, no Type 3, no annotations/outlines/attachments, pages, metadata title, text searchable). You review my log | Arena agent + Kartik Mehta | Pre-flight log in COMPLIANCE_REPORT.md §3.8 |

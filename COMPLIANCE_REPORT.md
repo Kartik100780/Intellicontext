@@ -188,3 +188,18 @@ Also note: 7-page PDF (if confirmed) = one extra page = INR 1,000 on KonfHub.
 **Exact next step (author, now, by 21:40 IST):**
 1. Confirm the Paper ID #287992 acceptance email and reply in the chat with that confirmation or with corrections.
 2. Open `source/IntelliLog_287992_source.zip` → `paper.docx` in Microsoft Word; export to PDF; save as `camera_ready/287992_camera_ready_pre-validation.pdf`; tell me. I will run the pre-flight suite on that file.
+
+---
+## 9. Update 16 Oct 2026 (v2 after author decisions)
+
+Applied (see `source/CHANGES.md` E3–E7): reference [6] and [8] author lists corrected to the published records; references [20] and [21] removed with their two citations (the sentence in Discussion > Future Work and the sentence in Methodology > Reproducibility were reworded without changing the claim); references now [1]–[19], cited in order, no orphans. Verified by script (raw output in CHANGES.md).
+
+**Not a final paper yet. Blocking items:**
+1. **D1 PDF not produced.** Export from `source/paper.docx` in Word, then PDF eXpress validation (Conference ID 71332X, still "to confirm").
+2. **AI disclosure conflict (blocking for declaration item 6):** intake says AI used for grammar and language; chat answer says no AI used. No sentence has been written either way.
+3. **Copyright/IEEE footer placeholder** "XXX-X-XXXX-XXXX-X/XX/$XX.00 ©20XX IEEE" remains; the organisers' notice was not supplied.
+4. **"PUBLIC" sensitivity label metadata** remains in `docProps/custom.xml`; Word may re-add the footer marking.
+5. **Figure 2** is a raster (~327 dpi); a vector export or 600 dpi version is needed.
+6. **Reproducibility sentence** still says artefacts are "available on request subject to organisational security approval" with no citation; author decision.
+7. **References not verified by reading:** [1]–[5], [7], [9]–[19].
+8. **Ethics/funding/COI:** Acknowledgment states no funding and no competing interests; intake B10 is missing.

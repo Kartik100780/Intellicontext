@@ -26,3 +26,21 @@ Verification of E1/E2 (raw): paragraph diff of `word/document.xml` = exactly 2 p
 | F8 | Table II table-note paragraph is styled `figurecaption` and begins "Table II." | Label duplication; style fix is a template decision. |
 | F9 | AI-use disclosure absent from Acknowledgment (intake B09: grammar/language use) | Disclosure is a recommendation for grammar-only use; author decides. Tool name missing from intake. |
 | F10 | Language / style: 26 em dashes in body | Style observation only. No rewrite. |
+
+## Edits v2 (16 Oct 2026, after author decisions in chat)
+
+| # | File | Location | Before | After | Reason | Rule | Approval |
+|---|------|----------|--------|-------|--------|------|----------|
+| E3 | word/document.xml | Reference [6] authors | `H. Liu, S. He, J. Wang, L. Shi, J. Liu, and T. Zheng,` | `H. Hamooni, B. Debnath, J. Xu, H. Zhang, G. Jiang, and A. Mueen,` | Published authors (ACM CIKM 2016 record). Title, venue and pages unchanged. | T3, Decl 4 | Author decision "apply" (chat). Authors should still read the source. |
+| E4 | word/document.xml | Reference [8] authors | `J. Liu, S. He, J. Wang, and T. Zheng,` | `J. Liu, J. Zhu, S. He, P. He, Z. Zheng, and M. R. Lyu,` | Published authors (ASE 2019 programme and index record). Title, venue and pages unchanged. | T3, Decl 4 | Author decision "apply" (chat). |
+| E5 | word/document.xml | Reference list, last two entries | [20] "Splunk Optimization Team ... internal research repositories ... available on request"; [21] "S. Nair, A. Kumar, L. Zhang ... CLOUD 2021" | Both entries removed. No renumbering needed (they were the last two). References are now [1]-[19] | [21] has no public record found (unverified). [20] is not verifiable by IEEE readers. | T3, T12, Decl 4 | Author decision "remove" for both (chat). |
+| E6 | word/document.xml | Discussion > Future Work | `extending adaptive-sampling ideas [21] with a reduction-aware objective` | `extending adaptive-sampling ideas with a reduction-aware objective` | Citation removed with [21]. Claim wording unchanged. The idea is now uncited; the authors should decide whether a verified source is needed. | T3 | Author decision "remove and reword" (chat). |
+| E7 | word/document.xml | Methodology > Reproducibility | `... a Next.js frontend [20].` | `... a Next.js frontend.` | Citation removed with [20]. | T3 | Author decision "remove" (chat). |
+
+Verification of v2 (raw): body citations in first-appearance order [1..19]; distinct set == 1..19; no "[20]" or "[21]" strings remain; all XML parts parse; footers still carry only the placeholder copyright line.
+
+**Still open (not changed):** F1 sensitivity label metadata; F2 footer copyright placeholder (organisers' text not supplied); F7 Fig. 2 raster (vector export needed); F8 Table II note style; F9 AI disclosure (below).
+
+**AI disclosure - NOT added.** Intake B09 says generative AI was used for grammar and language. In chat (16 Oct) the author selected "no AI was used". These statements conflict. No disclosure sentence and no "no AI" sentence has been written. The author must resolve this before signing declaration item 6.
+
+**Still needed from authors:** Methodology > Reproducibility still says "Artefacts are available on request subject to organisational security approval." No reference supports this any more, so the author must decide. References [5], [7], [9]-[19] have not been verified by reading.
